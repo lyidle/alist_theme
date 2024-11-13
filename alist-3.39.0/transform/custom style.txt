@@ -1,9 +1,14 @@
-
-/* #region custom style */
-/* home 白天主题颜色 */
+/* 白天主题颜色 */
 :root {
-  /* 背景 */
-  --custom-container-bg-url: url("https://img.picui.cn/free/2024/11/09/672f2b9a1aa09.jpg");
+  /* 公告背景 */
+  --custom-notification-bg: #ffffffcb;
+  --custom-notification-blur: 3px;
+  --custom-notification-header-color: var(--primary-custom-color);
+  --custom-notification-content-color: var(--primary-custom-color);
+  --custom-notification-icon-color: var(--primary-custom-color);
+  /* #region 背景 */
+  --custom-container-bg-url: url("/imgurl");
+  /* #endregion 背景 */
   /* login默认背景  属性 */
   --custom-home-default-bg-display: none;
   --custom-home-default-bg-opacity: "";
@@ -14,9 +19,9 @@
   --custom-login-input-focus: #d1e1ff;
   --custom-login-input-hover: #d1e1ff;
   /* 主体字体颜色 */
-  --primary-custom-color: #693903 !important;
+  --primary-custom-color: #693903;
   /* 顶部 */
-  --custom-top-bg: rgba(208, 219, 255, 0.801) !important;
+  --custom-top-bg: rgba(208, 219, 255, 0.801);
   --custom-header-tool-bg: #8c97d9;
   --custom-header-tool-color: rgb(227, 227, 227);
   --custom-header-tool-bg-hover: #6773bb;
@@ -31,31 +36,31 @@
   --custom-search-color: var(--primary-custom-color);
   --custom-search-highlight-bg: orange;
   --custom-search-highlight-color: white;
-  --custom-search-button: rgb(188, 194, 255) !important;
-  --custom-search-icon: var(--primary-custom-icon) !important;
+  --custom-search-button: rgb(188, 194, 255);
+  --custom-search-icon: var(--primary-custom-icon);
   /* 面包屑 */
   --custom-breadcrumb-bg: rgb(208 219 255 / 78%);
   /* 主体图标颜色 */
-  --primary-custom-icon: #6373ca !important;
+  --primary-custom-icon: #6373ca;
   /* 中间内容 */
   --cutoms-content-bg: rgb(225 232 255 / 88%);
   /* 代码块 */
-  --custom-code-background: rgb(255 255 255 / 36%) !important;
+  --custom-code-background: rgb(255 255 255 / 36%);
   /* 下拉框 */
-  --custom-select: #bbcaf9 !important;
+  --custom-select: #bbcaf9;
   --custom-select-hover: #a5b9f9;
-  --custom-select-container: #c8d5ff !important;
-  --custom-select-active: rgb(188, 194, 255) !important;
+  --custom-select-container: #c8d5ff;
+  --custom-select-active: rgb(188, 194, 255);
   /* 输入框 */
-  --custom-input: #bbcaf9b8 !important;
-  --custom-input-focus: rgb(188, 194, 255) !important;
-  --custom-input-hover: rgb(188, 194, 255) !important;
+  --custom-input: #bbcaf9b8;
+  --custom-input-focus: rgb(188, 194, 255);
+  --custom-input-hover: rgb(188, 194, 255);
   /* 右下角工具栏 */
-  --custom-sidbar-tool-bg: #ced4ebc7 !important;
+  --custom-sidbar-tool-bg: #ced4ebc7;
   --custom-sidbar-tool-icon-color: var(--primary-custom-icon);
-  --custom-sidbar-tool-miniscreen-bg: #d9ddecf1 !important;
-  --custom-sidbar-tool-icon-bg-hover: #98a1d5 !important;
-  --custom-sidbar-tool-icon-color-bg-hover: rgb(234, 234, 234) !important;
+  --custom-sidbar-tool-miniscreen-bg: #d9ddecf1;
+  --custom-sidbar-tool-icon-bg-hover: #98a1d5;
+  --custom-sidbar-tool-icon-color-bg-hover: rgb(234, 234, 234);
   /* 底部类容 */
   --text-co-bg: rgb(206 214 240 / 82%);
   /* 取消按钮背景颜色 */
@@ -70,10 +75,16 @@
 .text-co {
   --primary-color-focus: #1890ff;
 }
-/* home 暗夜主题颜色 */
+/* 暗夜主题颜色 */
 .hope-ui-dark {
-  /* 背景 */
-  --custom-container-bg-url: url("https://img.picui.cn/free/2024/11/09/672f2b9a7c5db.png");
+  /* 公告背景 */
+  --custom-notification-bg: #323232de;
+  --custom-notification-header-color: var(--primary-custom-color);
+  --custom-notification-content-color: var(--primary-custom-color);
+  --custom-notification-icon-color: var(--primary-custom-color);
+  /* #region 背景 */
+  --custom-container-bg-url: url("/imgurl");
+  /* #endregion 背景 */
   /* login默认背景  属性 */
   --custom-home-default-bg-display: none;
   --custom-home-default-bg-opacity: "";
@@ -84,7 +95,7 @@
   --custom-login-input-focus: #454545;
   --custom-login-input-hover: #454545;
   /* 主体字体颜色 */
-  --primary-custom-color: #c5cae8 !important;
+  --primary-custom-color: #c5cae8;
   /* 顶部 */
   --custom-top-bg: rgba(20, 20, 20, 0.8);
   --custom-header-tool-bg: #27336e;
@@ -92,38 +103,38 @@
   --custom-header-tool-bg-hover: #434c7a;
   --custom-header-tool-color-hover: white;
   /* 回到顶部 */
-  --custom-scrollTop-bg: #4b516f !important;
-  --custom-scrollTop-color: #cdced6 !important;
-  --custom-scrollTop-bg-hover: #666b87 !important;
-  --custom-scrollTop-color-hover: #ffffff !important;
+  --custom-scrollTop-bg: #4b516f;
+  --custom-scrollTop-color: #cdced6;
+  --custom-scrollTop-bg-hover: #666b87;
+  --custom-scrollTop-color-hover: #ffffff;
   /* 搜索弹窗 */
   --custom-search: #1c2034;
   --custom-search-color: #9da5cd;
   --custom-search-highlight-bg: #8293e8;
   --custom-search-highlight-color: #d3d8f0;
-  --custom-search-button: #4f5b97 !important;
-  --custom-search-icon: #7584d0 !important;
+  --custom-search-button: #4f5b97;
+  --custom-search-icon: #7584d0;
   /* 面包屑 */
   --custom-breadcrumb-bg: rgba(39, 39, 39, 0.85);
   /* 主体图标颜色 */
-  --primary-custom-icon: #4f5b97 !important;
+  --primary-custom-icon: #4f5b97;
   /* 中间内容 */
   --cutoms-content-bg: rgba(39, 39, 39, 0.8);
   /* 代码块 */
-  --custom-code-background: rgba(65, 65, 65, 0.482) !important;
+  --custom-code-background: rgba(65, 65, 65, 0.482);
   /* 下拉框 */
-  --custom-select: #2d376a !important;
-  --custom-select-hover: #1d2756 !important;
-  --custom-select-container: #1d2756 !important;
-  --custom-select-active: #38457c !important;
+  --custom-select: #2d376a;
+  --custom-select-hover: #1d2756;
+  --custom-select-container: #1d2756;
+  --custom-select-active: #38457c;
   /* 输入框 */
-  --custom-input: #2d376a !important;
-  --custom-input-focus: #1d2756 !important;
-  --custom-input-hover: #1d2756 !important;
+  --custom-input: #2d376a;
+  --custom-input-focus: #1d2756;
+  --custom-input-hover: #1d2756;
   /* 右下角工具栏 */
   --custom-sidbar-tool-bg: rgba(39, 39, 39, 0.8);
-  --custom-sidbar-tool-miniscreen-bg: rgba(39, 39, 39, 0.9) !important;
-  --custom-sidbar-tool-icon-color: #b7b7b7 !important;
+  --custom-sidbar-tool-miniscreen-bg: rgba(39, 39, 39, 0.9);
+  --custom-sidbar-tool-icon-color: #b7b7b7;
   --custom-sidbar-icon-tool-bg-hover: #98a1d5;
   --custom-sidbar-tool-icon-color-bg-hover: rgb(0, 0, 0);
   /* 底部类容 */
@@ -141,291 +152,5 @@
 }
 /*底部自定义内容*/
 .hope-ui-dark .text-co {
-  --primary-color-focus: #8991ba;
+  --primary-color-focus: #ba9f89;
 }
-
-/* home中间部分字体 */
-.hope-c-PJLV-iiHckfM-css p.hope-c-PJLV,
-/* 中间部文本文件字体 */
-.hope-c-PJLV-iiHckfM-css .markdown pre code,
-.hope-c-PJLV-iiHckfM-css  .markdown p,
-.hope-c-PJLV-iiHckfM-css  .view-lines *,
-.hope-c-PJLV-iiHckfM-css  .hope-heading,
-/* select */
-body[data-pageName='home'] .hope-select__trigger,
-/* select options */
-body[data-pageName="home"] .hope-select__option,
-/* 面包屑 */
-nav.hope-breadcrumb,
-/* 底部footer */
-.text-co ,
-/* 弹窗标题 */
-body[data-pageName="home"] .hope-modal__header {
-  color: var(--primary-custom-color);
-}
-
-/* 中间部分和搜索部分icon */
-body[data-pageName="home"] svg.hope-c-PJLV-idBSAKG-css,
-body[data-pageName="home"] svg.hope-c-PJLV-ibQLacO-css {
-  color: var(--primary-custom-icon);
-}
-
-/* #region public */
-/* login默认背景 */
-.hope-c-PJLV-ihWgyFw-css,
-.hope-c-PJLV-ibiABng-css {
-  display: var(--custom-home-default-bg-display);
-  opacity: var(--custom-home-default-bg-opacity);
-}
-/* login 登录窗口 */
-.hope-c-PJLV-ifjOQLV-css {
-  background-color: var(--custom-home-panel-bg);
-}
-.hope-c-PJLV-iubUra-css {
-  background-color: var(--custom-home-panel-bg);
-}
-/*白天背景图*/
-.hope-ui-light {
-  background-image: var(--custom-container-bg-url);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position-x: center;
-}
-/*夜间背景图*/
-.hope-ui-dark {
-  background-image: var(--custom-container-bg-url);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position-x: center;
-}
-/* #endregion public */
-/* 懒得弄了，home页面时给body加个data-pageName离开销毁 */
-/* 下拉框 */
-body[data-pageName="home"] .hope-select__trigger {
-  background-color: var(--custom-select);
-  border: 0 !important;
-}
-body[data-pageName="home"] .hope-select__trigger:hover {
-  background-color: var(--custom-select-hover);
-}
-/* 下拉框选项 */
-body[data-pageName="home"] .hope-select__listbox {
-  background-color: var(--custom-select-container);
-}
-/* 下拉框选项悬浮 */
-body[data-pageName="home"] .hope-c-gUeVCo[data-active],
-body[data-pageName="home"] .hope-c-kvTTWD-hYRNAb-variant-filled:focus {
-  background-color: var(--custom-select-active);
-}
-/* menu */
-body[data-pageName="home"] .hope-menu__content {
-  background-color: var(--custom-select);
-}
-body[data-pageName="home"] .hope-menu__item[data-active] {
-  background-color: var(--custom-select-hover);
-}
-/* 输入框 */
-body[data-pageName="home"] .hope-input,
-body[data-pageName="home"] textarea,
-/* 登录界面的输入框 */
-.hope-c-PJLV-ifjOQLV-css .hope-input,
-.hope-c-PJLV-iubUra-css .hope-input {
-  background-color: var(--custom-input);
-  border: 0 !important;
-  color: var(--primary-custom-color);
-}
-body[data-pageName="home"] .hope-input:focus,
-body[data-pageName="home"] textarea:focus,
-.hope-c-PJLV-ifjOQLV-css .hope-input:focus,
-.hope-c-PJLV-iubUra-css .hope-input:focus {
-  background-color: var(--custom-input-focus);
-  border: 0 !important;
-}
-body[data-pageName="home"] .hope-input:hover,
-body[data-pageName="home"] textarea:hover,
-.hope-c-PJLV-ifjOQLV-css .hope-input:hover,
-.hope-c-PJLV-iubUra-css .hope-input:hover {
-  background-color: var(--custom-input-hover);
-}
-/* 登录界面的输入框 */
-.hope-c-PJLV-ifjOQLV-css .hope-input,
-.hope-c-PJLV-iubUra-css .hope-input {
-  background-color: var(--custom-login-input);
-  border: 0 !important;
-}
-.hope-c-PJLV-ifjOQLV-css .hope-input:focus,
-.hope-c-PJLV-iubUra-css .hope-input:focus {
-  background-color: var(--custom-login-input-focus);
-  border: 0 !important;
-}
-.hope-c-PJLV-ifjOQLV-css .hope-input:hover,
-.hope-c-PJLV-iubUra-css .hope-input:hover {
-  background-color: var(--custom-login-input-hover);
-}
-/* 按钮 */
-body[data-pageName="home"] button:focus {
-  outline: none !important;
-  box-shadow: none !important;
-}
-/* 取消按钮 */
-body[data-pageName="home"] .hope-c-ivMHWx-knrFJ-cv {
-  background-color: var(--custom-cancel-bg);
-  color: var(--custom-cancel-color);
-}
-body[data-pageName="home"] .hope-c-ivMHWx-knrFJ-cv:hover {
-  background-color: var(--custom-cancel-bg-hover);
-}
-/* 新建文件或文件夹的确认按钮 */
-body[data-pageName="home"] #hope-modal-cl-13 .hope-c-ivMHWx-dvmlqS-cv:hover {
-  background-color: var(--custom-confirm-bg-hover);
-  color: var(--custom-confirm-color-hover);
-}
-/* 弹窗 */
-body[data-pageName="home"] .hope-modal__content,
-/* 本地设置弹窗颜色 */
-body[data-pageName="home"] .hope-c-hOYTCS {
-  background-color: var(--custom-search);
-}
-
-/* #region home */
-
-/* #region 顶部*/
-/* 顶部的样式 */
-.hope-c-PJLV-ikaMhsQ-css {
-  background-color: var(--custom-top-bg);
-}
-/*顶部搜索弹窗*/
-#hope-modal-cl-62 {
-  color: var(--custom-search-color);
-}
-/* 搜索图标 */
-#hope-modal-cl-62 svg.hope-c-PJLV-idBSAKG-css {
-  color: var(--custom-search-icon);
-}
-/* 搜索结果关键字高亮 */
-#hope-modal-cl-62 mark,
-#hope-modal-cl-62 .hope-c-PJLV-ifZVkTT-css,
-#hope-modal-cl-62 .hope-c-PJLV-ibieBKe-css mark {
-  background-color: var(--custom-search-highlight-bg);
-  color: var(--custom-search-highlight-color);
-  padding: 0 5px;
-  font-weight: 600;
-}
-/* 搜索按钮 */
-.hope-c-ivMHWx-kWSPeQ-size-md.hope-icon-button {
-  background-color: var(--custom-search-button);
-  color: var(--custom-search-color);
-}
-.hope-c-ivMHWx-kWSPeQ-size-md.hope-icon-button:hover {
-  background-color: var(--custom-search-button);
-  color: var(--custom-search-color);
-}
-/* 右侧工具栏 */
-.header-right button {
-  background-color: var(--custom-header-tool-bg);
-  color: var(--custom-header-tool-color);
-}
-.hope-c-ivMHWx-dvmlqS-cv:hover {
-  background-color: var(--custom-header-tool-bg-hover);
-  color: var(--custom-header-tool-color-hover);
-}
-
-/* 回到顶部 */
-.hope-c-PJLV-ihVEsOa-css,
-.hope-ui-dark .hope-c-PJLV-ihVEsOa-css {
-  background-color: var(--custom-scrollTop-bg);
-  color: var(--custom-scrollTop-color);
-  box-shadow: none;
-}
-.hope-c-PJLV-ihVEsOa-css:hover,
-.hope-ui-dark .hope-c-PJLV-ihVEsOa-css:hover {
-  background-color: var(--custom-scrollTop-bg-hover);
-  color: var(--custom-scrollTop-color-hover);
-}
-/* #endregion */
-
-/* #region 面包屑 */
-/* 面包屑的样式 */
-.hope-c-PJLV-idaeksS-css {
-  background-color: var(--custom-breadcrumb-bg);
-  border-radius: 10px;
-  padding: 5px;
-}
-/* #endregion */
-
-/* #region 中间部分 */
-/*主列表*/
-.hope-c-PJLV-igScBhH-css,
-.hope-c-PJLV-iigjoxS-css {
-  background-color: var(--cutoms-content-bg);
-}
-/*白天模式代码块*/
-.hope-ui-light pre {
-  background-color: var(--custom-code-background) !important;
-  border-radius: 5px !important;
-}
-/*夜间模式代码块*/
-.hope-ui-dark pre {
-  background-color: var(--custom-code-background) !important;
-  border-radius: 5px !important;
-}
-/* 初始化text editor背景 */
-.monaco-editor,
-.monaco-editor .margin {
-  background-color: transparent !important;
-  border-radius: 5px !important;
-}
-/* text editor 左侧 */
-.monaco-editor .margin {
-  background-color: var(--custom-code-background) !important;
-}
-/* text editor 中间 */
-.lines-content.monaco-editor-background {
-  background-color: var(--custom-code-background) !important;
-}
-/* text editor 右侧是canvas画的 */
-/* #endregion */
-
-/* #region 右下角侧边栏按钮 */
-/*右下角侧边栏按钮背景*/
-.left-toolbar-box {
-  background-color: var(--custom-sidbar-tool-bg);
-}
-/* 图标 */
-.left-toolbar-box svg {
-  color: var(--custom-sidbar-tool-icon-color);
-}
-/* 图标悬浮 */
-.left-toolbar-box svg:hover {
-  background-color: var(--custom-sidbar-tool-icon-bg-hover);
-  color: var(--custom-sidbar-tool-icon-color-bg-hover);
-}
-@media screen and (max-width: 768px) {
-  /*右下角侧边栏按钮背景*/
-  .left-toolbar-box {
-    background-color: var(--custom-sidbar-tool-miniscreen-bg);
-  }
-}
-/* #endregion */
-
-/* #region footer */
-/*底部自定义内容*/
-.text-co,
-.hope-ui-dark .text-co {
-  background-color: var(--text-co-bg);
-}
-.text-co i {
-  color: var(--primary-custom-icon);
-}
-/* 最下面的高亮显示 */
-.text-co .container > div span,
-.text-co .container > div span a {
-  color: var(--primary-color-focus) !important;
-}
-/* #endregion */
-
-/* #endregion */
-
-/* #endregion */
